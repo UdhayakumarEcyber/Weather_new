@@ -7,12 +7,20 @@
 }
 @media (min-aspect-ratio: 16/9) {
   .videobg-video {
-    height: auto;
-    width: 100%;
+    // height: auto;
+    // width: 100%;
+    // width: auto;
+
+    height: 100%;
+    width: auto;
   }
 }
 @media (max-aspect-ratio: 16/9) {
   .videobg-video {
+    // height: 100%;
+    // height: auto;
+    // width: auto;
+
     height: 100%;
     width: auto;
   }

@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React, { useState } from 'react'
 import { registerWidget, IContextProvider } from '../uxp';  
 import { DataList, WidgetWrapper } from "uxp/components";
 
@@ -9,138 +9,117 @@ import {VideoBg,Source} from '../components/VideoBg/VideoBg';
  
 interface IWeatherWidgetProps{
     uxpContext?: IContextProvider;
+    isActive: string;
 } 
 
-var dataset1 = [ 
+var dataset = [ 
              {
               "id": "Monday",
                "label": "Mon",
-               "value": 29,
-               "img": "./images/thunder.png",
-               "status":"Thunder"
+               "value": 10,  
+               "status":"sun"
              },
              {
               "id": "Tuesday",
                "label": "Tue",
-               "value": 29,
-               "img": "images/sunny.png",
-               "status":"Sunny"
+               "value": 18,  
+               "status":"thunder"
              },
              {
               "id": "Wednesday",
                "label": "Wed",
-               "value": 29,
-               "img": "images/thunder.png",
-               "status":"Thunder"
+               "value": 23,  
+               "status":"cloudy"
              },
              {
               "id": "Thursday",
                "label": "Thur",
-               "value": 29,
-               "img": "images/rainy.png",
-               "status":"Rainy"
+               "value": -13,  
+               "status":"snow"
              },
              {
               "id": "Friday",
                "label": "Fri",
-               "value": 29,
-               "img": "images/thunder.png",
-               "status":"Thunder"
+               "value": 17,  
+               "status":"rain"
              },
              {
                "id": "Saturday",
                "label": "Sat",
-               "value": 29,
-               "img": "images/rainy.png",
-               "status":"Rainy"
+               "value": 23,  
+               "status":"drizzle"
              } 
  ] 
  
 
-export const WeatherWidget:React.FunctionComponent<IWeatherWidgetProps> = (props) =>  {  
+export const WeatherWidget:React.FunctionComponent<IWeatherWidgetProps> = (props) =>  {    
 
-    let [data,setData] = React.useState([])
+// let [data,setData] = React.useState([])
 
-function getData () {
-
-    props.uxpContext.executeAction("Example1","weather",{},{json:true}).then(res=>{
-        setData(res);
-    }).catch(e=>{
-        // reload();
-    });
-
-}
-React.useEffect(() =>{
-    getData();
-}, [])
-
-
-// const renderGridItem = (item: any, key: number) => {
-//     return (<ItemCard
-//         item={item}
-//         imageField="icon"
-//         nameField="name"
-//         titleField="title"
-//         subTitleField="subTitle"
-       
-//     />)
+// function getData () { 
+//     props.uxpContext.executeAction("Example1","weather",{},{json:true}).then(res=>{
+//         setData(res);
+//     }).catch(e=>{
+//         // reload();
+//     }); 
 // }
-
+// React.useEffect(() =>{
+//     getData();
+// }, [])
+ 
+ 
 const DayWeatherlist = () => (
     <ul className="daylist">
-      {dataset1.map(item => (
-        <li key={item.id}>   
-          <div className="status"><img src={item.img}></img></div>
+      {dataset.map(item => (
+        <li key={item.id}> 
+          <div className={`${item.status} status`}></div> 
           <div className="label">{item.label}</div>
           <div className="value">{item.value}</div>
         </li>
       ))}
-    </ul>
-  );
+    </ul>  
+ ); 
 
- 
-
+  
+ var item = {
+  "id": "Saturday",
+  "label": "Sat",
+  "value": 29,  
+  "status":"drizzle"
+ }
+   
     return  <>
 
-    <WidgetWrapper>  
+    <WidgetWrapper>   
+      <div className={`weather_widget ${item.status}`}>   
 
-        <div className="weather_widget">
-
-          <div className="weather-video">
-
-              {/* <ReactVideo src="video/sunny.mp4" /> */}
-
-
-              <VideoBg loop={true} > 
-                <Source src="video/cloudy.mp4" type="video/mp4" />
-              </VideoBg>;
-
-          </div> 
-       
-
-           {/* <Video sources={sources} poster="./video/poster.png" >
-            <h3 className="video-logo pull-right"><a href="http://glexe.com" target="_blank">LOGO</a></h3>
-            <p>Any HTML content</p>
-          </Video> */}
-
-          <div className="weather_widget-top">
-            <div className="perc-value">
-                  <img src="images/drop.png" />   
-                 <p>30%</p>
-            </div>  
+          <div className="weather-video">  
+              <VideoBg loop={true} autoPlay muted>  
+                <Source src={"https://s3.amazonaws.com/ecyber.public/widgets/weather/video/" + item.status + ".mp4"} type="video/mp4"/>  
+              </VideoBg>; 
           </div>  
 
-          <div className="weather_icon"><img src="images/sunny.png" /></div>  
+          <div className="weather_widget-top">
+            <div className="perc-value"> 
+                 <p>{item.value}%</p>
+            </div>  
+          </div>  
+ 
+          <div className={`weather_icon ${item.status}`}>    
+          </div>  
 
-           <div className="weather-content">
-                {/* <h4>32 &#8451;</h4> */}
-                <h4>32 <sup>o</sup><span>C</span></h4>
-                <p>Sunny Today</p>
+           <div className="weather-content"> 
+                <h4>{item.value}<sup>o</sup><span>C</span></h4>
+                <p>{item.status} Today</p>
             </div>
 
             <DayWeatherlist />  
 
         </div> 
+
+
+{/* ))} */}
+
     </WidgetWrapper>
 
     </>

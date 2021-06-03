@@ -305,16 +305,54 @@ module.exports = function () {
 /*!*********************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/WeatherWidget/weather.scss ***!
   \*********************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _icons_Black_Icon_feather_sun_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./icons/Black/Icon feather-sun.svg */ "./src/WeatherWidget/icons/Black/Icon feather-sun.svg");
+/* harmony import */ var _icons_Black_Icon_feather_sun_svg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_icons_Black_Icon_feather_sun_svg__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _icons_Black_Icon_feather_cloud_drizzle_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./icons/Black/Icon feather-cloud-drizzle.svg */ "./src/WeatherWidget/icons/Black/Icon feather-cloud-drizzle.svg");
+/* harmony import */ var _icons_Black_Icon_feather_cloud_drizzle_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_icons_Black_Icon_feather_cloud_drizzle_svg__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _icons_Black_Icon_feather_cloud_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./icons/Black/Icon feather-cloud.svg */ "./src/WeatherWidget/icons/Black/Icon feather-cloud.svg");
+/* harmony import */ var _icons_Black_Icon_feather_cloud_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_icons_Black_Icon_feather_cloud_svg__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _icons_Black_Icon_feather_cloud_lightning_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./icons/Black/Icon feather-cloud-lightning.svg */ "./src/WeatherWidget/icons/Black/Icon feather-cloud-lightning.svg");
+/* harmony import */ var _icons_Black_Icon_feather_cloud_lightning_svg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_icons_Black_Icon_feather_cloud_lightning_svg__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _icons_Black_Icon_feather_cloud_snow_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./icons/Black/Icon feather-cloud-snow.svg */ "./src/WeatherWidget/icons/Black/Icon feather-cloud-snow.svg");
+/* harmony import */ var _icons_Black_Icon_feather_cloud_snow_svg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_icons_Black_Icon_feather_cloud_snow_svg__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _icons_Black_Icon_feather_cloud_rain_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./icons/Black/Icon feather-cloud-rain.svg */ "./src/WeatherWidget/icons/Black/Icon feather-cloud-rain.svg");
+/* harmony import */ var _icons_Black_Icon_feather_cloud_rain_svg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_icons_Black_Icon_feather_cloud_rain_svg__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _images_drop_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./images/drop.svg */ "./src/WeatherWidget/images/drop.svg");
+/* harmony import */ var _images_drop_svg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_images_drop_svg__WEBPACK_IMPORTED_MODULE_9__);
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
+
+
+
+
+
+
+
+
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_icons_Black_Icon_feather_sun_svg__WEBPACK_IMPORTED_MODULE_3___default.a);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_icons_Black_Icon_feather_cloud_drizzle_svg__WEBPACK_IMPORTED_MODULE_4___default.a);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_icons_Black_Icon_feather_cloud_svg__WEBPACK_IMPORTED_MODULE_5___default.a);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_icons_Black_Icon_feather_cloud_lightning_svg__WEBPACK_IMPORTED_MODULE_6___default.a);
+var ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_icons_Black_Icon_feather_cloud_snow_svg__WEBPACK_IMPORTED_MODULE_7___default.a);
+var ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_icons_Black_Icon_feather_cloud_rain_svg__WEBPACK_IMPORTED_MODULE_8___default.a);
+var ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_images_drop_svg__WEBPACK_IMPORTED_MODULE_9___default.a);
 // Module
-exports.push([module.i, ".weather_widget {\n  width: 100%;\n  height: 100%;\n  padding: 20px;\n  display: inline-block;\n  flex-wrap: wrap;\n  background: #a67c1fa3;\n  color: #000; }\n  .weather_widget:after {\n    content: '';\n    position: absolute;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n    background: #ad801c17;\n    filter: blur(2px); }\n  .weather_widget .weather-video {\n    display: inline-block;\n    width: 100%;\n    position: absolute;\n    left: 0;\n    top: 0;\n    z-index: 0;\n    opacity: 0.8;\n    filter: blur(3px); }\n    .weather_widget .weather-video .VideoBg-module_wrapper__3FlD_ {\n      position: unset; }\n      .weather_widget .weather-video .VideoBg-module_wrapper__3FlD_ video {\n        height: fit-content;\n        width: fit-content; }\n  .weather_widget .weather_icon {\n    display: inline-block;\n    position: absolute;\n    top: 1em;\n    right: 1em;\n    width: 50px;\n    height: 50px; }\n    .weather_widget .weather_icon img {\n      max-width: 100%;\n      max-height: 100%; }\n  .weather_widget .weather_widget-top {\n    width: 100%;\n    display: inline-block;\n    position: relative; }\n    .weather_widget .weather_widget-top .perc-value {\n      width: 47%;\n      display: inline-block; }\n      .weather_widget .weather_widget-top .perc-value img {\n        max-width: 100%;\n        max-height: 100%;\n        display: inline-block;\n        width: 35px; }\n      .weather_widget .weather_widget-top .perc-value p {\n        font-size: 1.2em;\n        display: inline-block;\n        padding: 12px 0 0 0;\n        margin: 0;\n        vertical-align: top; }\n  .weather_widget .weather-content {\n    text-align: center;\n    width: 100%;\n    position: absolute;\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 40%; }\n    .weather_widget .weather-content h4 {\n      width: 100%;\n      display: inline-block;\n      font-size: 3em;\n      text-align: center;\n      padding: 0;\n      margin: 0; }\n      .weather_widget .weather-content h4 span {\n        font-size: 0.7em;\n        vertical-align: text-top; }\n      .weather_widget .weather-content h4 sup {\n        font-size: 0.5em;\n        vertical-align: top; }\n    .weather_widget .weather-content p {\n      width: 100%;\n      display: inline-block;\n      font-size: 2em;\n      text-align: center;\n      text-transform: uppercase;\n      padding: 15px 0 0 0;\n      margin: 0; }\n  .weather_widget .daylist {\n    display: flex;\n    width: 100%;\n    padding: 0;\n    margin: 0;\n    position: absolute;\n    bottom: 1.5em;\n    left: 0;\n    color: #000; }\n    .weather_widget .daylist li {\n      list-style: none;\n      width: 18%;\n      padding: 0 3%;\n      font-size: 1.2em;\n      text-align: center; }\n      .weather_widget .daylist li .label {\n        display: inline-block;\n        width: 100%;\n        margin-top: 5px; }\n      .weather_widget .daylist li .value {\n        display: inline-block;\n        width: 100%;\n        margin-top: 10px; }\n      .weather_widget .daylist li .status {\n        display: inline-block;\n        width: 100%;\n        margin-top: 5px; }\n        .weather_widget .daylist li .status img {\n          max-width: 80%;\n          max-height: 80%; }\n  .weather_widget:hover {\n    -webkit-transition: 0.5s ease-in-out;\n    -moz-transition: 0.5s ease-in-out;\n    -ms-transition: 0.5s ease-in-out;\n    -o-transition: 0.5s ease-in-out;\n    transition: 0.5s ease-in-out; }\n    .weather_widget:hover .daylist, .weather_widget:hover .weather_widget-top {\n      display: none; }\n    .weather_widget:hover .weather-content {\n      transform: translate(-50%, 0%);\n      left: 50%;\n      top: unset;\n      background: #00000091;\n      padding: 20px 0;\n      bottom: 0;\n      color: #fff; }\n    .weather_widget:hover .weather_icon {\n      animation-name: spin;\n      animation-duration: 4000ms;\n      animation-iteration-count: infinite;\n      animation-timing-function: linear; }\n\n@keyframes spin {\n  from {\n    transform: rotate(0deg); }\n  to {\n    transform: rotate(360deg); } }\n\n@keyframes topbottom {\n  0% {\n    left: 50%;\n    padding: 15px 0;\n    color: #fff; }\n  100% {\n    bottom: 0;\n    top: unset;\n    background: #00000038;\n    transform: translate(-50%, 0%); } }\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".weather_widget {\n  width: 100%;\n  height: 100%;\n  padding: 20px;\n  display: inline-block;\n  flex-wrap: wrap;\n  background: #a67c1fa3;\n  color: #000; }\n  .weather_widget .weather-video {\n    display: inline-block;\n    width: 100%;\n    position: absolute;\n    left: 0;\n    top: 0;\n    z-index: 0;\n    opacity: 0.8;\n    filter: blur(3px);\n    height: 100%; }\n    .weather_widget .weather-video .VideoBg-module_wrapper__3FlD_ {\n      position: unset; }\n      .weather_widget .weather-video .VideoBg-module_wrapper__3FlD_ video {\n        height: fit-content;\n        width: fit-content; }\n  .weather_widget .weather_icon {\n    display: inline-block;\n    position: absolute;\n    top: 2em;\n    right: 2em;\n    width: 2.2em;\n    height: 2.2em;\n    background-repeat: no-repeat;\n    background-position: center center;\n    background-size: 100% auto; }\n    .weather_widget .weather_icon.sun {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n    .weather_widget .weather_icon.drizzle {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n    .weather_widget .weather_icon.cloudy {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + "); }\n    .weather_widget .weather_icon.lightning {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + "); }\n    .weather_widget .weather_icon.snow {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + "); }\n    .weather_widget .weather_icon.rain {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + "); }\n    .weather_widget .weather_icon.thunder {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + "); }\n  .weather_widget .weather_widget-top {\n    width: 100%;\n    display: inline-block;\n    position: relative; }\n    .weather_widget .weather_widget-top .perc-value {\n      width: 47%;\n      display: inline-block; }\n      .weather_widget .weather_widget-top .perc-value p {\n        font-size: 1.2em;\n        display: inline-block;\n        padding: 8px 0 0 32px;\n        margin: 0;\n        vertical-align: top;\n        position: relative; }\n        .weather_widget .weather_widget-top .perc-value p:before {\n          content: '';\n          position: absolute;\n          top: 0em;\n          left: 0em;\n          width: 30px;\n          height: 30px;\n          background-repeat: no-repeat;\n          background-position: center center;\n          background-size: 100% auto;\n          background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_6___ + "); }\n  .weather_widget .weather-content {\n    text-align: center;\n    width: 100%;\n    position: absolute;\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 40%; }\n    .weather_widget .weather-content h4 {\n      width: 100%;\n      display: inline-block;\n      font-size: 3em;\n      text-align: center;\n      padding: 0;\n      margin: 0; }\n      .weather_widget .weather-content h4 span {\n        font-size: 0.7em;\n        vertical-align: text-top; }\n      .weather_widget .weather-content h4 sup {\n        font-size: 0.5em;\n        vertical-align: top; }\n    .weather_widget .weather-content p {\n      width: 100%;\n      display: inline-block;\n      font-size: 2em;\n      text-align: center;\n      text-transform: uppercase;\n      padding: 15px 0 0 0;\n      margin: 0; }\n  .weather_widget .daylist {\n    display: flex;\n    width: 100%;\n    padding: 0;\n    margin: 0;\n    position: absolute;\n    bottom: 1.5em;\n    left: 0;\n    color: #000; }\n    .weather_widget .daylist li {\n      list-style: none;\n      width: 18%;\n      padding: 0 3%;\n      font-size: 1.2em;\n      text-align: center; }\n      .weather_widget .daylist li .label {\n        display: inline-block;\n        width: 100%;\n        margin-top: 5px; }\n      .weather_widget .daylist li .value {\n        display: inline-block;\n        width: 100%;\n        margin-top: 10px; }\n      .weather_widget .daylist li .status {\n        display: inline-block;\n        width: 30px;\n        margin-top: 0px;\n        background-position: center center;\n        background-repeat: no-repeat;\n        height: 30px;\n        background-size: contain; }\n        .weather_widget .daylist li .status.sun {\n          background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n        .weather_widget .daylist li .status.drizzle {\n          background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n        .weather_widget .daylist li .status.cloudy {\n          background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + "); }\n        .weather_widget .daylist li .status.lightning {\n          background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + "); }\n        .weather_widget .daylist li .status.snow {\n          background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + "); }\n        .weather_widget .daylist li .status.rain {\n          background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + "); }\n        .weather_widget .daylist li .status.thunder {\n          background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + "); }\n", "",{"version":3,"sources":["webpack://./src/WeatherWidget/weather.scss"],"names":[],"mappings":"AACA;EAGI,WAAW;EACX,YAAY;EACZ,aAAa;EACb,qBAAqB;EACrB,eAAe;EACf,qBAAqB;EACrB,WAAW,EAAA;EATf;IAuBY,qBAAqB;IACrB,WAAW;IACX,kBAAkB;IAClB,OAAO;IACP,MAAM;IACN,UAAU;IACV,YAAY;IACZ,iBAAiB;IACjB,YAAY,EAAA;IA/BxB;MAkCgB,eAAe,EAAA;MAlC/B;QAqCoB,mBAAmB;QACnB,kBAAkB,EAAA;EAtCtC;IAkEQ,qBAAqB;IACrB,kBAAkB;IAClB,QAAQ;IACR,UAAU;IACV,YAAY;IACZ,aAAa;IACb,4BAA4B;IAC5B,kCAAkC;IAClC,0BAA0B,EAAA;IA1ElC;MAkFY,yDAAyD,EAAA;IAlFrE;MAqFY,yDAAmE,EAAA;IArF/E;MAwFY,yDAA2D,EAAA;IAxFvE;MA2FY,yDAAqE,EAAA;IA3FjF;MA8FY,yDAAgE,EAAA;IA9F5E;MAiGY,yDAAgE,EAAA;IAjG5E;MAoGY,yDAAgE,EAAA;EApG5E;IAyGQ,WAAW;IACX,qBAAqB;IACrB,kBAAkB,EAAA;IA3G1B;MA8GY,UAAU;MACV,qBAAqB,EAAA;MA/GjC;QAwHgB,gBAAgB;QAChB,qBAAqB;QACrB,qBAAqB;QACrB,SAAS;QACT,mBAAmB;QACnB,kBAAkB,EAAA;QA7HlC;UAgIoB,WAAW;UACX,kBAAkB;UAClB,QAAQ;UACR,SAAS;UACT,WAAW;UACX,YAAY;UACZ,4BAA4B;UAC5B,kCAAkC;UAClC,0BAA0B;UAC1B,yDAAsC,EAAA;EAzI1D;IAiJQ,kBAAkB;IAClB,WAAW;IACX,kBAAkB;IAClB,gCAAgC;IAChC,SAAS;IACT,QAAQ,EAAA;IAtJhB;MAyJY,WAAW;MACX,qBAAqB;MACrB,cAAc;MACd,kBAAkB;MAClB,UAAU;MACV,SAAS,EAAA;MA9JrB;QAiKgB,gBAAgB;QAChB,wBAAwB,EAAA;MAlKxC;QAqKgB,gBAAgB;QAChB,mBAAmB,EAAA;IAtKnC;MA0KY,WAAW;MACX,qBAAqB;MACrB,cAAc;MACd,kBAAkB;MAClB,yBAAyB;MACzB,mBAAmB;MACnB,SAAS,EAAA;EAhLrB;IAqLQ,aAAa;IACb,WAAW;IACX,UAAU;IACV,SAAS;IACT,kBAAkB;IAClB,aAAa;IACb,OAAO;IACP,WAAW,EAAA;IA5LnB;MA+LY,gBAAgB;MAChB,UAAU;MACV,aAAa;MACb,gBAAgB;MAChB,kBAAkB,EAAA;MAnM9B;QAsMgB,qBAAqB;QACrB,WAAW;QACX,eAAe,EAAA;MAxM/B;QA2MgB,qBAAqB;QACrB,WAAW;QACX,gBAAgB,EAAA;MA7MhC;QAgNgB,qBAAqB;QACrB,WAAW;QACX,eAAe;QACf,kCAAkC;QAClC,4BAA4B;QAC5B,YAAY;QACZ,wBAAwB,EAAA;QAtNxC;UAyNoB,yDAAyD,EAAA;QAzN7E;UA4NoB,yDAAmE,EAAA;QA5NvF;UA+NoB,yDAA2D,EAAA;QA/N/E;UAkOoB,yDAAqE,EAAA;QAlOzF;UAqOoB,yDAAgE,EAAA;QArOpF;UAwOoB,yDAAgE,EAAA;QAxOpF;UA2OoB,yDAAgE,EAAA","sourcesContent":[" \r\n.weather_widget{\r\n    // width: 100%;\r\n    // height: 100%;\r\n    width: 100%;\r\n    height: 100%;\r\n    padding: 20px;\r\n    display: inline-block;\r\n    flex-wrap: wrap;\r\n    background: #a67c1fa3;\r\n    color: #000;\r\n\r\n    // &:after{\r\n    //     content: '';\r\n    //     position: absolute;\r\n    //     left: 0;\r\n    //     top: 0;\r\n    //     width: 100%;\r\n    //     height: 100%;\r\n    //     background: #ad801c17;\r\n    //     filter: blur(2px);\r\n    // }\r\n\r\n    .weather-video{ \r\n            display: inline-block;\r\n            width: 100%;\r\n            position: absolute;\r\n            left: 0;\r\n            top: 0;\r\n            z-index: 0;\r\n            opacity: 0.8;\r\n            filter: blur(3px);\r\n            height: 100%;\r\n\r\n            .VideoBg-module_wrapper__3FlD_{\r\n                position: unset;\r\n\r\n                video{\r\n                    height: fit-content;\r\n                    width: fit-content;\r\n                } \r\n\r\n            }\r\n\r\n           \r\n      \r\n    }\r\n\r\n    .weather_icon{\r\n        // display: inline-block;\r\n        // position: absolute;\r\n        // top: 1em;\r\n        // right: 1em;\r\n        // width: 50px;\r\n        // height: 50px;\r\n        // background-image: url(icons/Black/feather-sun1.svg);\r\n        // background-position: center center;\r\n        // background-repeat: no-repeat;\r\n        // background-size: contain;\r\n\r\n        // display: inline-block;\r\n        // position: absolute;\r\n        // top: 2em;\r\n        // right: 0.5em;\r\n        // width: 3em;\r\n        // height: 3em;\r\n\r\n        display: inline-block;\r\n        position: absolute;\r\n        top: 2em;\r\n        right: 2em;\r\n        width: 2.2em;\r\n        height: 2.2em;\r\n        background-repeat: no-repeat;\r\n        background-position: center center;\r\n        background-size: 100% auto;\r\n\r\n        // img{\r\n        //     max-width: 100%;\r\n        //     max-height: 100%;\r\n        // }\r\n\r\n        &.sun{  \r\n            background-image: url(\"icons/Black/Icon feather-sun.svg\") \r\n        }\r\n        &.drizzle{  \r\n            background-image: url(\"icons/Black/Icon feather-cloud-drizzle.svg\") \r\n        }\r\n        &.cloudy{\r\n            background-image: url(\"icons/Black/Icon feather-cloud.svg\")\r\n        }\r\n        &.lightning{\r\n            background-image: url(\"icons/Black/Icon feather-cloud-lightning.svg\")\r\n        }\r\n        &.snow{\r\n            background-image: url(\"icons/Black/Icon feather-cloud-snow.svg\")\r\n        }\r\n        &.rain{\r\n            background-image: url(\"icons/Black/Icon feather-cloud-rain.svg\")\r\n        } \r\n        &.thunder{\r\n            background-image: url(\"icons/Black/Icon feather-cloud-snow.svg\") \r\n        } \r\n    }\r\n\r\n    .weather_widget-top{\r\n        width: 100%;\r\n        display: inline-block;\r\n        position: relative;  \r\n\r\n        .perc-value{\r\n            width: 47%;\r\n            display: inline-block;\r\n\r\n            // img{\r\n            //     max-width: 100%;\r\n            //     max-height: 100%;\r\n            //     display: inline-block;\r\n            //     width: 35px;\r\n            // }\r\n            p{\r\n                font-size: 1.2em;\r\n                display: inline-block;\r\n                padding: 8px 0 0 32px;\r\n                margin: 0;\r\n                vertical-align: top;\r\n                position: relative;\r\n\r\n                &:before{\r\n                    content: '';\r\n                    position: absolute;\r\n                    top: 0em;\r\n                    left: 0em;\r\n                    width: 30px;\r\n                    height: 30px;\r\n                    background-repeat: no-repeat;\r\n                    background-position: center center;\r\n                    background-size: 100% auto;\r\n                    background-image: url(images/drop.svg) \r\n\r\n                }\r\n            }\r\n        } \r\n    }\r\n\r\n    .weather-content{  \r\n        text-align: center;\r\n        width: 100%;\r\n        position: absolute;\r\n        transform: translate(-50%, -50%);\r\n        left: 50%;\r\n        top: 40%;\r\n\r\n        h4{\r\n            width: 100%;\r\n            display: inline-block;\r\n            font-size: 3em;\r\n            text-align: center;\r\n            padding: 0;\r\n            margin: 0;\r\n\r\n            span{\r\n                font-size: 0.7em;\r\n                vertical-align: text-top;\r\n            }\r\n            sup{\r\n                font-size: 0.5em;\r\n                vertical-align: top;\r\n            }\r\n        }\r\n        p{\r\n            width: 100%;\r\n            display: inline-block;\r\n            font-size: 2em;\r\n            text-align: center;\r\n            text-transform: uppercase;\r\n            padding: 15px 0 0 0;\r\n            margin: 0;\r\n        } \r\n    }\r\n\r\n    .daylist{\r\n        display: flex;\r\n        width: 100%;\r\n        padding: 0;\r\n        margin: 0;\r\n        position: absolute;\r\n        bottom: 1.5em;\r\n        left: 0;\r\n        color: #000;\r\n\r\n        li{\r\n            list-style: none;\r\n            width: 18%;\r\n            padding: 0 3%;\r\n            font-size: 1.2em;\r\n            text-align: center;\r\n\r\n            .label{\r\n                display: inline-block;\r\n                width: 100%;\r\n                margin-top: 5px;\r\n            }\r\n            .value{\r\n                display: inline-block;\r\n                width: 100%;\r\n                margin-top: 10px;\r\n            }\r\n            .status{  \r\n                display: inline-block;\r\n                width: 30px;\r\n                margin-top: 0px;\r\n                background-position: center center;\r\n                background-repeat: no-repeat;\r\n                height: 30px;\r\n                background-size: contain; \r\n            \r\n                &.sun{  \r\n                    background-image: url(\"icons/Black/Icon feather-sun.svg\") \r\n                }\r\n                &.drizzle{  \r\n                    background-image: url(\"icons/Black/Icon feather-cloud-drizzle.svg\") \r\n                }\r\n                &.cloudy{\r\n                    background-image: url(\"icons/Black/Icon feather-cloud.svg\")\r\n                }\r\n                &.lightning{\r\n                    background-image: url(\"icons/Black/Icon feather-cloud-lightning.svg\")\r\n                }\r\n                &.snow{\r\n                    background-image: url(\"icons/Black/Icon feather-cloud-snow.svg\")\r\n                }\r\n                &.rain{\r\n                    background-image: url(\"icons/Black/Icon feather-cloud-rain.svg\")\r\n                } \r\n                &.thunder{\r\n                    background-image: url(\"icons/Black/Icon feather-cloud-snow.svg\") \r\n                } \r\n\r\n            }\r\n        }\r\n    }\r\n    // &:hover{ \r\n    //     -webkit-transition: 0.5s ease-in-out;\r\n    //     -moz-transition: 0.5s ease-in-out;\r\n    //     -ms-transition: 0.5s ease-in-out;\r\n    //     -o-transition: 0.5s ease-in-out;\r\n    //     transition: 0.5s ease-in-out;\r\n\r\n    //     .daylist, .weather_widget-top{\r\n    //         display: none;\r\n    //     } \r\n\r\n    //     .weather-content { \r\n    //         transform: translate(-50%, 0%);\r\n    //         left: 50%;\r\n    //         top: unset;\r\n    //         background: #00000091;\r\n    //         padding: 20px 0;\r\n    //         bottom: 0;\r\n    //         color: #fff;  \r\n    //     }\r\n\r\n    //      .weather_icon {  \r\n    //         animation-name: spin;\r\n    //         animation-duration: 4000ms;\r\n    //         animation-iteration-count: infinite;\r\n    //         animation-timing-function: linear;\r\n    //     }\r\n\r\n    //     @keyframes spin { \r\n    //         from { \r\n    //             transform: rotate(0deg); \r\n    //         } to { \r\n    //             transform: rotate(360deg); \r\n    //         }\r\n    //     }\r\n\r\n    //     @keyframes topbottom { \r\n    //         0% {  \r\n    //             left: 50%; \r\n    //             padding: 15px 0; \r\n    //             color: #fff; \r\n    //         } 100% { \r\n    //             bottom: 0;\r\n    //             top: unset;\r\n    //             background: #00000038;\r\n    //             transform: translate(-50%, 0%);\r\n    //         }\r\n    //     } \r\n    // }\r\n}\r\n\r\n"],"sourceRoot":""}]);
 // Exports
-module.exports = exports;
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
 
 /***/ }),
@@ -323,16 +361,23 @@ module.exports = exports;
 /*!**************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/VideoBg/videobg.scss ***!
   \**************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
 // Module
-exports.push([module.i, ".videobg-video {\n  position: absolute;\n  top: 0;\n  right: 0;\n  height: 100%;\n  width: 100%; }\n\n@media (min-aspect-ratio: 16 / 9) {\n  .videobg-video {\n    height: auto;\n    width: 100%; } }\n\n@media (max-aspect-ratio: 16 / 9) {\n  .videobg-video {\n    height: 100%;\n    width: auto; } }\n\n@media (max-width: 768px) {\n  .videobg-video {\n    display: none; } }\n\n.videobg-wrapper {\n  overflow: hidden;\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: -9999; }\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".videobg-video {\n  position: absolute;\n  top: 0;\n  right: 0;\n  height: 100%;\n  width: 100%; }\n\n@media (min-aspect-ratio: 16 / 9) {\n  .videobg-video {\n    height: 100%;\n    width: auto; } }\n\n@media (max-aspect-ratio: 16 / 9) {\n  .videobg-video {\n    height: 100%;\n    width: auto; } }\n\n@media (max-width: 768px) {\n  .videobg-video {\n    display: none; } }\n\n.videobg-wrapper {\n  overflow: hidden;\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: -9999; }\n", "",{"version":3,"sources":["webpack://./src/components/VideoBg/videobg.scss"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,MAAM;EACN,QAAQ;EACR,YAAY;EACZ,WAAW,EAAA;;AAEb;EACE;IAKE,YAAY;IACZ,WAAW,EAAA,EACZ;;AAEH;EACE;IAKE,YAAY;IACZ,WAAW,EAAA,EACZ;;AAEH;EACE;IACE,aAAa,EAAA,EACd;;AAEH;EACE,gBAAgB;EAChB,eAAe;EACf,MAAM;EACN,QAAQ;EACR,SAAS;EACT,OAAO;EACP,cAAc,EAAA","sourcesContent":[".videobg-video {\r\n  position: absolute;\r\n  top: 0;\r\n  right: 0;\r\n  height: 100%;\r\n  width: 100%;\r\n}\r\n@media (min-aspect-ratio: 16/9) {\r\n  .videobg-video {\r\n    // height: auto;\r\n    // width: 100%;\r\n    // width: auto;\r\n\r\n    height: 100%;\r\n    width: auto;\r\n  }\r\n}\r\n@media (max-aspect-ratio: 16/9) {\r\n  .videobg-video {\r\n    // height: 100%;\r\n    // height: auto;\r\n    // width: auto;\r\n\r\n    height: 100%;\r\n    width: auto;\r\n  }\r\n}\r\n@media (max-width: 768px) {\r\n  .videobg-video {\r\n    display: none;\r\n  }\r\n}\r\n.videobg-wrapper {\r\n  overflow: hidden;\r\n  position: fixed;\r\n  top: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  z-index: -9999;\r\n}"],"sourceRoot":""}]);
 // Exports
-module.exports = exports;
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
 
 /***/ }),
@@ -341,16 +386,23 @@ module.exports = exports;
 /*!******************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles.scss ***!
   \******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
 // Module
-exports.push([module.i, "", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, "", "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
 // Exports
-module.exports = exports;
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
 
 /***/ }),
@@ -371,27 +423,27 @@ module.exports = exports;
 */
 // css base code, injected by the css-loader
 // eslint-disable-next-line func-names
-module.exports = function (useSourceMap) {
+module.exports = function (cssWithMappingToString) {
   var list = []; // return the list of modules as css string
 
   list.toString = function toString() {
     return this.map(function (item) {
-      var content = cssWithMappingToString(item, useSourceMap);
+      var content = cssWithMappingToString(item);
 
       if (item[2]) {
         return "@media ".concat(item[2], " {").concat(content, "}");
       }
 
       return content;
-    }).join('');
+    }).join("");
   }; // import a list of modules into the list
   // eslint-disable-next-line func-names
 
 
   list.i = function (modules, mediaQuery, dedupe) {
-    if (typeof modules === 'string') {
+    if (typeof modules === "string") {
       // eslint-disable-next-line no-param-reassign
-      modules = [[null, modules, '']];
+      modules = [[null, modules, ""]];
     }
 
     var alreadyImportedModules = {};
@@ -430,33 +482,93 @@ module.exports = function (useSourceMap) {
   return list;
 };
 
-function cssWithMappingToString(item, useSourceMap) {
-  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring
+/***/ }),
 
-  var cssMapping = item[3];
+/***/ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/cssWithMappingToString.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-  if (!cssMapping) {
-    return content;
-  }
+"use strict";
 
-  if (useSourceMap && typeof btoa === 'function') {
-    var sourceMapping = toComment(cssMapping);
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr && (typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]); if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+module.exports = function cssWithMappingToString(item) {
+  var _item = _slicedToArray(item, 4),
+      content = _item[1],
+      cssMapping = _item[3];
+
+  if (typeof btoa === "function") {
+    // eslint-disable-next-line no-undef
+    var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(cssMapping))));
+    var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
+    var sourceMapping = "/*# ".concat(data, " */");
     var sourceURLs = cssMapping.sources.map(function (source) {
-      return "/*# sourceURL=".concat(cssMapping.sourceRoot || '').concat(source, " */");
+      return "/*# sourceURL=".concat(cssMapping.sourceRoot || "").concat(source, " */");
     });
-    return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+    return [content].concat(sourceURLs).concat([sourceMapping]).join("\n");
   }
 
-  return [content].join('\n');
-} // Adapted from convert-source-map (MIT)
+  return [content].join("\n");
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
 
 
-function toComment(sourceMap) {
-  // eslint-disable-next-line no-undef
-  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
-  var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
-  return "/*# ".concat(data, " */");
-}
+module.exports = function (url, options) {
+  if (!options) {
+    // eslint-disable-next-line no-param-reassign
+    options = {};
+  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
+
+
+  url = url && url.__esModule ? url.default : url;
+
+  if (typeof url !== "string") {
+    return url;
+  } // If url is already wrapped in quotes, remove them
+
+
+  if (/^['"].*['"]$/.test(url)) {
+    // eslint-disable-next-line no-param-reassign
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    // eslint-disable-next-line no-param-reassign
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+
+  return url;
+};
 
 /***/ }),
 
@@ -10519,98 +10631,167 @@ const react_1 = __importDefault(__webpack_require__(/*! react */ "react"));
 const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
 __webpack_require__(/*! ./weather.scss */ "./src/WeatherWidget/weather.scss");
 const VideoBg_1 = __webpack_require__(/*! ../components/VideoBg/VideoBg */ "./src/components/VideoBg/VideoBg.tsx");
-var dataset1 = [
+var dataset = [
     {
         "id": "Monday",
         "label": "Mon",
-        "value": 29,
-        "img": "./images/thunder.png",
-        "status": "Thunder"
+        "value": 10,
+        "status": "sun"
     },
     {
         "id": "Tuesday",
         "label": "Tue",
-        "value": 29,
-        "img": "images/sunny.png",
-        "status": "Sunny"
+        "value": 18,
+        "status": "thunder"
     },
     {
         "id": "Wednesday",
         "label": "Wed",
-        "value": 29,
-        "img": "images/thunder.png",
-        "status": "Thunder"
+        "value": 23,
+        "status": "cloudy"
     },
     {
         "id": "Thursday",
         "label": "Thur",
-        "value": 29,
-        "img": "images/rainy.png",
-        "status": "Rainy"
+        "value": -13,
+        "status": "snow"
     },
     {
         "id": "Friday",
         "label": "Fri",
-        "value": 29,
-        "img": "images/thunder.png",
-        "status": "Thunder"
+        "value": 17,
+        "status": "rain"
     },
     {
         "id": "Saturday",
         "label": "Sat",
-        "value": 29,
-        "img": "images/rainy.png",
-        "status": "Rainy"
+        "value": 23,
+        "status": "drizzle"
     }
 ];
 exports.WeatherWidget = (props) => {
-    let [data, setData] = react_1.default.useState([]);
-    function getData() {
-        props.uxpContext.executeAction("Example1", "weather", {}, { json: true }).then(res => {
-            setData(res);
-        }).catch(e => {
-            // reload();
-        });
-    }
-    react_1.default.useEffect(() => {
-        getData();
-    }, []);
-    // const renderGridItem = (item: any, key: number) => {
-    //     return (<ItemCard
-    //         item={item}
-    //         imageField="icon"
-    //         nameField="name"
-    //         titleField="title"
-    //         subTitleField="subTitle"
-    //     />)
+    // let [data,setData] = React.useState([])
+    // function getData () { 
+    //     props.uxpContext.executeAction("Example1","weather",{},{json:true}).then(res=>{
+    //         setData(res);
+    //     }).catch(e=>{
+    //         // reload();
+    //     }); 
     // }
-    const DayWeatherlist = () => (react_1.default.createElement("ul", { className: "daylist" }, dataset1.map(item => (react_1.default.createElement("li", { key: item.id },
-        react_1.default.createElement("div", { className: "status" },
-            react_1.default.createElement("img", { src: item.img })),
+    // React.useEffect(() =>{
+    //     getData();
+    // }, [])
+    const DayWeatherlist = () => (react_1.default.createElement("ul", { className: "daylist" }, dataset.map(item => (react_1.default.createElement("li", { key: item.id },
+        react_1.default.createElement("div", { className: `${item.status} status` }),
         react_1.default.createElement("div", { className: "label" }, item.label),
         react_1.default.createElement("div", { className: "value" }, item.value))))));
+    var item = {
+        "id": "Saturday",
+        "label": "Sat",
+        "value": 29,
+        "status": "drizzle"
+    };
     return react_1.default.createElement(react_1.default.Fragment, null,
         react_1.default.createElement(components_1.WidgetWrapper, null,
-            react_1.default.createElement("div", { className: "weather_widget" },
+            react_1.default.createElement("div", { className: `weather_widget ${item.status}` },
                 react_1.default.createElement("div", { className: "weather-video" },
-                    react_1.default.createElement(VideoBg_1.VideoBg, { loop: true },
-                        react_1.default.createElement(VideoBg_1.Source, { src: "video/cloudy.mp4", type: "video/mp4" })),
+                    react_1.default.createElement(VideoBg_1.VideoBg, { loop: true, autoPlay: true, muted: true },
+                        react_1.default.createElement(VideoBg_1.Source, { src: "https://s3.amazonaws.com/ecyber.public/widgets/weather/video/" + item.status + ".mp4", type: "video/mp4" })),
                     ";"),
                 react_1.default.createElement("div", { className: "weather_widget-top" },
                     react_1.default.createElement("div", { className: "perc-value" },
-                        react_1.default.createElement("img", { src: "images/drop.png" }),
-                        react_1.default.createElement("p", null, "30%"))),
-                react_1.default.createElement("div", { className: "weather_icon" },
-                    react_1.default.createElement("img", { src: "images/sunny.png" })),
+                        react_1.default.createElement("p", null,
+                            item.value,
+                            "%"))),
+                react_1.default.createElement("div", { className: `weather_icon ${item.status}` }),
                 react_1.default.createElement("div", { className: "weather-content" },
                     react_1.default.createElement("h4", null,
-                        "32 ",
+                        item.value,
                         react_1.default.createElement("sup", null, "o"),
                         react_1.default.createElement("span", null, "C")),
-                    react_1.default.createElement("p", null, "Sunny Today")),
+                    react_1.default.createElement("p", null,
+                        item.status,
+                        " Today")),
                 react_1.default.createElement(DayWeatherlist, null))));
 };
 
+
+/***/ }),
+
+/***/ "./src/WeatherWidget/icons/Black/Icon feather-cloud-drizzle.svg":
+/*!**********************************************************************!*\
+  !*** ./src/WeatherWidget/icons/Black/Icon feather-cloud-drizzle.svg ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22.625' height='22.445' viewBox='0 0 22.625 22.445'%3E%3Cg transform='translate(1.134 1.006)'%3E%3Cpath d='M12,28.5v1.858' transform='translate(-5.491 -11.777)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M12,19.5v1.858' transform='translate(-5.491 -8.352)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M24,28.5v1.858' transform='translate(-10.059 -11.777)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M24,19.5v1.858' transform='translate(-10.059 -8.352)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M18,31.5v1.858' transform='translate(-7.775 -12.919)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M18,22.5v1.858' transform='translate(-7.775 -9.494)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M19.148,15.975a4.645,4.645,0,0,0-1.858-8.9H16.119A7.432,7.432,0,1,0,4.283,14.739' transform='translate(-1.49 -1.5)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E"
+
+/***/ }),
+
+/***/ "./src/WeatherWidget/icons/Black/Icon feather-cloud-lightning.svg":
+/*!************************************************************************!*\
+  !*** ./src/WeatherWidget/icons/Black/Icon feather-cloud-lightning.svg ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22.547' height='22.825' viewBox='0 0 22.547 22.825'%3E%3Cg transform='translate(1.094 1)'%3E%3Cpath d='M18.219,16.272a4.645,4.645,0,0,0-.929-9.2H16.119a7.432,7.432,0,1,0-10.8,8.361' transform='translate(-1.49 -1.501)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M17.216,16.5,13.5,22.074h5.574l-3.716,5.574' transform='translate(-6.062 -7.21)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E"
+
+/***/ }),
+
+/***/ "./src/WeatherWidget/icons/Black/Icon feather-cloud-rain.svg":
+/*!*******************************************************************!*\
+  !*** ./src/WeatherWidget/icons/Black/Icon feather-cloud-rain.svg ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23.478' height='23.291' viewBox='0 0 23.478 23.291'%3E%3Cg transform='translate(1.139 1.006)'%3E%3Cpath d='M24,19.5v7.74' transform='translate(-9.481 -7.89)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M12,19.5v7.74' transform='translate(-5.221 -7.89)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M18,22.5v7.74' transform='translate(-7.351 -8.955)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M19.879,16.574a4.838,4.838,0,0,0-1.935-9.269H16.725A7.74,7.74,0,1,0,4.4,15.287' transform='translate(-1.49 -1.5)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E"
+
+/***/ }),
+
+/***/ "./src/WeatherWidget/icons/Black/Icon feather-cloud-snow.svg":
+/*!*******************************************************************!*\
+  !*** ./src/WeatherWidget/icons/Black/Icon feather-cloud-snow.svg ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23.478' height='21.356' viewBox='0 0 23.478 21.356'%3E%3Cg transform='translate(1.139 1.007)'%3E%3Cpath d='M19.879,18.074a4.838,4.838,0,0,0-1.935-9.269H16.725A7.74,7.74,0,1,0,4.4,16.787' transform='translate(-1.49 -3)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M12,24h0' transform='translate(-5.221 -10.455)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M12,30h0' transform='translate(-5.221 -12.585)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M18,27h0' transform='translate(-7.351 -11.52)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M18,33h0' transform='translate(-7.351 -13.65)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M24,24h0' transform='translate(-9.481 -10.455)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M24,30h0' transform='translate(-9.481 -12.585)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E"
+
+/***/ }),
+
+/***/ "./src/WeatherWidget/icons/Black/Icon feather-cloud.svg":
+/*!**************************************************************!*\
+  !*** ./src/WeatherWidget/icons/Black/Icon feather-cloud.svg ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26.758' height='20.01' viewBox='0 0 26.758 20.01'%3E%3Cpath d='M20.62,12.749H19.2A9,9,0,1,0,10.5,24H20.62a5.624,5.624,0,1,0,0-11.249Z' transform='translate(-0.487 -4.987)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E"
+
+/***/ }),
+
+/***/ "./src/WeatherWidget/icons/Black/Icon feather-sun.svg":
+/*!************************************************************!*\
+  !*** ./src/WeatherWidget/icons/Black/Icon feather-sun.svg ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22.439' height='22.439' viewBox='0 0 22.439 22.439'%3E%3Cg transform='translate(1 1)'%3E%3Cpath d='M19.79,15.145A4.645,4.645,0,1,1,15.145,10.5a4.645,4.645,0,0,1,4.645,4.645Z' transform='translate(-4.926 -4.926)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M18,1.5V3.358' transform='translate(-7.781 -1.5)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M18,31.5v1.858' transform='translate(-7.781 -12.919)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M6.33,6.33,7.649,7.649' transform='translate(-3.338 -3.338)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M27.54,27.54l1.319,1.319' transform='translate(-11.412 -11.412)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M1.5,18H3.358' transform='translate(-1.5 -7.781)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M31.5,18h1.858' transform='translate(-12.919 -7.781)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M6.33,28.859,7.649,27.54' transform='translate(-3.338 -11.412)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M27.54,7.649,28.859,6.33' transform='translate(-11.412 -3.338)' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E"
+
+/***/ }),
+
+/***/ "./src/WeatherWidget/images/drop.svg":
+/*!*******************************************!*\
+  !*** ./src/WeatherWidget/images/drop.svg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml,%3Csvg width='64' height='64' xmlns='http://www.w3.org/2000/svg' style='user-select: auto;'%3E %3Ctitle style='user-select: auto;'/%3E %3Cg%3E %3Ctitle%3Ebackground%3C/title%3E %3Crect fill='none' id='canvas_background' height='402' width='582' y='-1' x='-1'/%3E %3C/g%3E %3Cg%3E %3Ctitle%3ELayer 1%3C/title%3E %3Cpath style='user-select: auto;' fill='%23000000' id='svg_1' d='m50,38.36a18.5,18.5 0 0 1 -37,0c0,-16.19 15,-31.22 18.5,-31.22s18.5,15.03 18.5,31.22z' class='cls-1'/%3E %3Cpath fill='%23e0e0e0' id='svg_2' d='m29.3,34.07c0,3.32 -2.1,5.05 -4.4,5.05s-4.32,-1.81 -4.32,-4.79s1.73,-5 4.44,-5s4.28,2.03 4.28,4.74zm-6,0.17c0,1.66 0.56,2.86 1.64,2.86s1.56,-1.07 1.56,-2.86c0,-1.61 -0.44,-2.86 -1.59,-2.86s-1.57,1.28 -1.57,2.86l-0.04,0zm19.66,6.43c0,3.32 -2.1,5.05 -4.4,5.05s-4.3,-1.81 -4.32,-4.79s1.73,-5 4.44,-5s4.32,2.07 4.32,4.74l-0.04,0zm-25.59,-6.26c0,1.66 0.54,2.86 1.61,2.86s1.56,-1.07 1.56,-2.86c0,-1.61 -0.42,-2.86 -1.56,-2.86s18.13,7.7 18.13,9.29l-19.74,-6.43z' class='cls-2'/%3E %3Cline stroke-width='2px' stroke-linejoin='round' stroke-linecap='round' stroke='%23e0e0e0' fill='none' id='svg_3' y2='44.72' y1='29.69' x2='27.45' x1='36.7' class='cls-3'/%3E %3C/g%3E %3C/svg%3E"
 
 /***/ }),
 
@@ -11045,7 +11226,7 @@ exports.registerUI = registerUI;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/shivanan/eutech/usecases/generic/node_modules/webpack-dev-server/client/index.js?http://localhost:8080 */"./node_modules/webpack-dev-server/client/index.js?http://localhost:8080");
+__webpack_require__(/*! D:\Udhay Project files\Project-2021\Weather_new\generic\node_modules\webpack-dev-server\client\index.js?http://localhost:8080 */"./node_modules/webpack-dev-server/client/index.js?http://localhost:8080");
 module.exports = __webpack_require__(/*! ./src/index.tsx */"./src/index.tsx");
 
 
